@@ -48,16 +48,14 @@ Tempo estimado para completar este laboratório: **45** minutos.
 
 ## ElasticSearch ##
 
-```
-# Faça o download do Elasticsearch: 
-wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.0-x86_64.rpm 
+### Instalação ###
 
-# Instale o Elasticsearch:
-sudo rpm -ivh elasticsearch-7.1.0-x86_64.rpm
+- Faça o download do Elasticsearch: `wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.0-x86_64.rpm` 
+- Instale o Elasticsearch: `sudo rpm -ivh elasticsearch-7.1.0-x86_64.rpm`
 
-# Acesse o arquivo de configuração do Elasticsearch: 
-vim /etc/elasticsearch/elasticsearch.yml
-```
+### Configuração ###
+- Acesse o arquivo de configuração do Elasticsearch: `vim /etc/elasticsearch/elasticsearch.yml`
+
 ## Kibana ##
 
 ## Metricbeat ##
