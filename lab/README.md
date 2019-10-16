@@ -42,24 +42,24 @@ Tempo estimado para completar este laboratório: em **45** minutos
 ## Vamos começar? ##
 
 - Abra o PowerShell como Administrador
-- Crie a pasta para o seu laboratório digitando o comando: mkdir elasticlab
-- Navegue até a pasta digitando o comando: cd elasticlab
+- Crie a pasta para o seu laboratório digitando o comando: `mkdir elasticlab`
+- Navegue até a pasta digitando o comando: `cd elasticlab`
 
 ## Instalando o Chocolatey ##
 Download e instalação do Chocolatey usando o PowerShell:
-- Na console do PowerShell e digite o comando: Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+- Na console do PowerShell e digite o comando: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 - Não feche a console do PowerShell, ela será necessária nos próximos passos.
 
 ## Virtualbox ##
 Download e instalação do Virtualbox:
-- Ainda no PowerShell, digite o comando: choco install virtualbox
+- Ainda no PowerShell, digite o comando: `choco install virtualbox`
 
 ## Vagrant ##
 Download e instalação do Vagrant
-- Na console do PowerShell, digite o comando: choco install vagrant
-- Crie o arquivo de inicialização do vangrant digitando o comando: vagrant init centos/7
-- Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: vagrant up
-- Acesse a máquina virtual via SSH digitando o comando: vagrant SSH
+- Na console do PowerShell, digite o comando: `choco install vagrant`
+- Crie o arquivo de inicialização do vangrant digitando o comando: `vagrant init centos/7`
+- Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
+- Acesse a máquina virtual via SSH digitando o comando: `vagrant SSH`
 
 ## ElasticSearch ##
 Download e instalação do ElasticSearch:
