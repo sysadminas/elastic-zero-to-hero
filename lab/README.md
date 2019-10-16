@@ -1,12 +1,12 @@
 <a name="HOLTitle"></a>
 
-# Bootcamp Elastic Zero to Hero
+# 🚀 Bootcamp Elastic Zero to Hero
 
 <a name="Overview"></a>
 
 ## Visão geral ##
 
-Ao concluir esse Lab você aprenderá como crir um ambiente virtualizado para executar o Elastic Stack, usando automação de infraestrutura para instalar e efetuar as configurações básicas do seu ambiente.
+Ao concluir esse laboratório você aprenderá como crir um ambiente virtualizado para executar o Elastic Stack, usando automação de infraestrutura para instalar e efetuar as configurações básicas do seu ambiente de testes.
 
 <a name="Objectives"></a>
 
@@ -17,9 +17,9 @@ Neste laboratório prático, você aprenderá como:
 - Instalar o Chocolatey (https://chocolatey.org/), um software para gerenciamento de pacotes no Windows;
 - Instalar o Virtualbox (https://www.virtualbox.org/), uma plataforma de virtualização open source;
 - Instalar o Vagrant (https://www.vagrantup.com); uma ferramenta para gerenciamento de ambientes virtualizados;
-- Elastic Stack (ElasticSearch, Kibana e Metricbeat)
+- Instalar e configurar o Elastic Stack (ElasticSearch, Kibana e Metricbeat)
 
-Obs: Para esse laboratório vamos usar a distribuição Linux CentOs (https://centos.org/), mas não se preocupe. Todos os comandos básicos para a configuração do lab estão descritos no passo a passo.
+Obs: Para esse laboratório vamos usar a distribuição Linux CentOs (https://centos.org/), mas não se preocupe. Todos os comandos básicos para a configuração do ambiente estão descritos no passo a passo.
 
 <a name="Prerequisites"></a>
 
@@ -34,8 +34,8 @@ Para o laboratório você vai precisar de:
 
 ## Criando a infraestrutura de forma automatizada ##
 
-Vamos começar? Abaixo os passo a passo das configurações do seu ambiente virtualizado.
-Tempo estimado para completar este laboratório: no seu tempo ou em **45** minutos.
+Abaixo o passo a passo das configurações do seu ambiente virtualizado usando o Chocolatey+VirtualBox+Vagrant. Caso você prefira ir direto para um ambiente Linux, siga os passos a partir do **Elastic Search**
+Tempo estimado para completar este laboratório: em **45** minutos
 
 <a name="Exercise1"></a>
 
