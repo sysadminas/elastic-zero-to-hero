@@ -30,3 +30,5 @@ O seguinte é necessário para completar este laboratório prático
 - Sistema Operacional Windows ou Linux
 
 <a name="Exercises"></a>
+
+authors: @thebeaoliveira e @valescaf
