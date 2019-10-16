@@ -1,6 +1,6 @@
 <a name="HOLTitle"></a>
 
-# Hands-on Lab Elastic Zero to Hero
+# 🚀 Hands-on Lab Elastic Zero to Hero
 
 <a name="Overview"></a>
 
@@ -48,6 +48,16 @@ Tempo estimado para completar este laboratório: **45** minutos.
 
 ## ElasticSearch ##
 
+```
+# Faça o download do Elasticsearch: 
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.0-x86_64.rpm 
+
+# Instale o Elasticsearch:
+sudo rpm -ivh elasticsearch-7.1.0-x86_64.rpm
+
+# Acesse o arquivo de configuração do Elasticsearch: 
+vim /etc/elasticsearch/elasticsearch.yml
+```
 ## Kibana ##
 
 ## Metricbeat ##
