@@ -68,8 +68,6 @@ Download e instalação do ElasticSearch:
 - Acesse o arquivo de configuração do Elasticsearch: `vim /etc/elasticsearch/elasticsearch.yml`
 
 ## Kibana ##
-Download e instalação do Kibana:
 -
 ## Metricbeat ##
-Download e instalação do Metricbeat:
 -
