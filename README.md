@@ -1,12 +1,14 @@
 <a name="HOLTitle"></a>
 
-# 🚀 Hands-on Lab Elastic Zero to Hero
+# 🚀 Bootcamp Elastic Zero to Hero
 
 <a name="Overview"></a>
 
 ## Visão geral ##
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Nunca teve contato com o Elastic Stack e tem interesse em saber como funciona?
+O Elastic Zero To Hero é o evento perfeito para isso, pois você aprenderá a instalar e configurar seu Elastic Stack do zero.
+
 
 <a name="Objectives"></a>
 
