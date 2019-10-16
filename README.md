@@ -33,4 +33,4 @@ O seguinte é necessário para completar este laboratório prático
 
 <a name="Exercises"></a>
 
-autoras: [@thebeaoliveira](https://github.com/thebeaoliveira) e [@valescaf](https://github.com/valescaf)
+Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira) e [@valescaf](https://github.com/valescaf)
