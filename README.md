@@ -6,7 +6,7 @@
 
 ## Visão geral ##
 O Elastic Stack é desenvolvido sobre uma base open source, tendo o Elasticsearch e o Kibana como as duas ferramentas principais.
-Usando as ferramentas da Elastic é possível cobrir diversos cenários e casos de uso, que vão muito além de logs e motor de busca, como por exemplo aprendizado de máquina, segurança, observalidade. Onde existe dados, o Elastic Stack pode ser usado.
+Usando as ferramentas da Elastic é possível cobrir diversos cenários e casos de uso, que vão muito além de logs e motor de busca, como por exemplo aprendizado de máquina, segurança, observalidade. Onde existe dado, o Elastic Stack pode ser usado.
 
 Mas o que compõem o Elastic Stack?
 
