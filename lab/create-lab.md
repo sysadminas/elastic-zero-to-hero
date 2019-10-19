@@ -60,3 +60,5 @@ Download e instalação do Vagrant
 - Crie o arquivo de inicialização do vangrant digitando o comando: `vagrant init centos/7`
 - Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
 - Acesse a máquina virtual via SSH digitando o comando: `vagrant SSH`
+
+Agora que você já tem o seu ambiente pronto, vamos iniciar a instalação do [elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
