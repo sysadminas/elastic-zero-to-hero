@@ -97,6 +97,7 @@ O resultado do comando acima deverá ser esse:
 }
 ```
 
-Agora que o elasticsearch já foi instalado e configurado, vamos partir para a instalação e configuração do [kibana]
+### Próximo passo
+Agora que o Elasticsearch já foi instalado e configurado, vamos partir para a instalação e configuração do [Kibana](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/kibana.md)
 
 
