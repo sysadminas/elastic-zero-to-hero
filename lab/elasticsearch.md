@@ -97,6 +97,6 @@ O resultado do comando acima deverá ser esse:
 }
 ```
 
-Agora que o elasticsearch já foi instalado e configurado, vamos partir para a instalação e configuração do [kibana] (/pages/kibana.md).
+Agora que o elasticsearch já foi instalado e configurado, vamos partir para a instalação e configuração do [kibana] (/lab/kibana.md).
 
 
