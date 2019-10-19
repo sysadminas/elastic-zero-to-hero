@@ -25,7 +25,7 @@ Obs: Para esse laboratório vamos usar a distribuição Linux CentOs (https://ce
 
 ### Pré-requisitos ###
 
-Para o laboratório você vai precisar de:
+Para o laboratório você vai precisar de: 
 
 - Um computador com acesso a internet
 - Sistema Operacional Windows
@@ -61,4 +61,5 @@ Download e instalação do Vagrant
 - Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
 - Acesse a máquina virtual via SSH digitando o comando: `vagrant SSH`
 
-Agora que você já tem o seu ambiente pronto, vamos iniciar a instalação do [elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
+## Próximo passo ##
+Agora que você já tem o seu ambiente pronto, vamos iniciar a instalação do [Elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
