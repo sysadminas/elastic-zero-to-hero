@@ -18,7 +18,7 @@ A família Beats permitem a ingestão dos dados e métricas da origem para o Ela
 
 <a name="Objectives"></a>
 
-### Objetivos ##
+### Objetivos ###
 
 Neste laboratório prático, você aprenderá como preparar o seu ambiente de laboratório, instalar e configurar o Elastic Stack, fazer a ingestão de dados no Elasticsearch e a consulta usando o Kibana.
 
@@ -32,5 +32,12 @@ O seguinte é necessário para completar este laboratório prático
 - Sistema Operacional Windows ou Linux
 
 <a name="Exercises"></a>
+
+### Próximos passos ###
+
+1. [Configurar o lab](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/create-lab.md)
+2. [Instalar e configurar o Elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
+3. [Instalar e configurar o Kibana](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/kibana.md)
+4. [Instalar e configurar o Metricbeat](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/metricbeat.md)
 
 Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira) e [@valescaf](https://github.com/valescaf)
