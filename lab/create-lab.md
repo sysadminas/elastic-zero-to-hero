@@ -1,6 +1,6 @@
 <a name="HOLTitle"></a>
 
-# 🚀 Bootcamp Elastic Zero to Hero
+## 🚀 Bootcamp Elastic Zero to Hero ##
 
 <a name="Overview"></a>
 
@@ -25,7 +25,7 @@ Obs: Para esse laboratório vamos usar a distribuição Linux CentOs (https://ce
 
 ### Pré-requisitos ###
 
-Para o laboratório você vai precisar de: 
+Para o laboratório você vai precisar de:
 
 - Um computador com acesso a internet
 - Sistema Operacional Windows
