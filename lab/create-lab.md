@@ -49,6 +49,7 @@ Tempo estimado para completar este laboratório: em **45** minutos
 Download e instalação do Chocolatey usando o PowerShell:
 - Na console do PowerShell e digite o comando: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 - Não feche a console do PowerShell, ela será necessária nos próximos passos.
+Obs: Ao utilizar o choco para realizar a instalação, a plataforma irá baixar a ultima versão disponivel.
 
 ## Virtualbox ##
 Download e instalação do Virtualbox:
