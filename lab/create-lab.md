@@ -62,6 +62,7 @@ Download e instalação do Vagrant
 - Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
 - Acesse a máquina virtual via SSH digitando o comando: `vagrant ssh`
 - Digite o comando para instalar o wget: `sudo yum install wget`
+- Digite o comando para parar o firewall `sudo systemctl stop firewalld`
 
 ## Próximo passo ##
 Agora que você já tem o seu ambiente pronto, vamos iniciar a instalação do [Elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
