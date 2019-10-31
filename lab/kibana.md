@@ -47,7 +47,7 @@ elasticsearch.hosts: "http://ip_do_elastic:9200"
 
 Depois disso, salve o arquivo e execute o comando abaixo para subir o Kibana:
 ```
-systemctl start elasticsearch
+systemctl start kibana
 ```
 
 Para testar o Kibana, basta inserir o ip e a porta dele em um navegador, caso tudo tenha funcionado, o resultado será esse aqui:
