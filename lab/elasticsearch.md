@@ -74,6 +74,10 @@ Verifique o status do serviço
 ```
 systemctl status elasticsearch
 ```
+Habilite o elasticsearch para subir automaticamente: 
+```
+systemctl enable elasticsearch
+```
 Teste o elasticsearch: 
 ```
 curl -XGET http://localhost:9200/
