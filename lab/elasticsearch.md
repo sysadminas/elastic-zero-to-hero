@@ -70,7 +70,10 @@ Depois disso, salve o arquivo e execute o comando abaixo para subir o elasticsea
 ```
 systemctl start elasticsearch
 ```
-
+Verifique o status do serviço
+```
+systemctl status elasticsearch
+```
 Teste o elasticsearch: 
 ```
 curl -XGET http://localhost:9200/
