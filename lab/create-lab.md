@@ -61,11 +61,15 @@ Download e instalação do Vagrant
 - Crie o arquivo de inicialização do vagrant digitando o comando: `vagrant init centos/7`
 - Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
 - Acesse a máquina virtual via SSH digitando o comando: `vagrant ssh`
+
+## Configuração do CentOS ##
 - Garatindo privilégios de root: `sudo su`
 - Digite o comando para instalar o wget: `yum install wget`
 - Digite o comando para instalar o vim: `yum install vim`
 - Digite o comando para desabilitar o firewall `systemctl disable firewalld`
 - Instalando o Ifconfig: `yum provides ifconfig`
+- Adicionando o NAT para o Elasticsearch: `vBoxManage modifyvm "NOME_DA_VM" --natpf1 "SSH,tcp,127.0.0.1,9200,10.0.2.15,9200"
+- Adicionando o NAT para o Kibana: `vBoxManage modifyvm "NOME_DA_VM" --natpf1 "SSH,tcp,127.0.0.1,5601,10.0.2.15,5601"
 
 ## Próximo passo ##
 Agora que você já tem o seu ambiente pronto, vamos iniciar a instalação do [Elasticsearch](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/elasticsearch.md)
