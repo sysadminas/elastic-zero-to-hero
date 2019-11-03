@@ -64,7 +64,7 @@ Download e instalação do Vagrant
 - Garatindo privilégios de root: `sudo su`
 - Digite o comando para instalar o wget: `yum install wget`
 - Digite o comando para instalar o vim: `yum install vim`
-- Digite o comando para parar o firewall `systemctl stop firewalld`
+- Digite o comando para desabilitar o firewall `systemctl disable firewalld`
 - Instalando o Ifconfig: `yum provides ifconfig`
 
 ## Próximo passo ##
