@@ -20,7 +20,7 @@ wget https://artifacts.elastic.co/downloads/kibana/kibana-7.1.0-x86_64.rpm
 
 Instale o Kibana:
 ```
-rpm -ivh kibana-7.0.0-x86_64.rpm
+rpm -ivh kibana-7.1.0-x86_64.rpm
 ```
 
 ## Configuração
