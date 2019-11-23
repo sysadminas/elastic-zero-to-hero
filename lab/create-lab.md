@@ -6,7 +6,7 @@
 
 ## Visão geral ##
 
-Ao concluir esse laboratório você aprenderá como crir um ambiente virtualizado para executar o Elastic Stack, usando automação de infraestrutura para instalar e efetuar as configurações básicas do seu ambiente de testes.
+Ao concluir esse laboratório você aprenderá como criar um ambiente virtualizado para executar o Elastic Stack, usando automação de infraestrutura para instalar e efetuar as configurações básicas do seu ambiente de testes.
 
 <a name="Objectives"></a>
 
