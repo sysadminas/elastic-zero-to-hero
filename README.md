@@ -14,7 +14,7 @@ O Elasticsearch é um mecanismo de busca e análise distribuída baseado em JSON
 
 O Kibana dá forma aos seus dados e faz a interface com o seu usuário através de um Dashboard altamente flexível.
 
-A família Beats permitem a ingestão dos dados e métricas da origem para o Elasticsearch. Em nosso Bootcamp vamos explorar o Metricbeat, que é o agente que coleta as métricas da sua máquina/servidor, como por exemplo, o uso de memória e CPU. Existem diversos outros "beats" que cobrem boa parte das necessidades de coleta de dados e métricas. Vale a pena conferir os outros agentes nesse <a href="https://www.elastic.co/pt/products/beats">link</a>.
+Os Beats permitem a ingestão dos dados e métricas da origem para o Elasticsearch. Em nosso Bootcamp vamos explorar o Metricbeat, que é o agente que coleta as métricas da sua máquina/servidor, como por exemplo, o uso de memória e CPU. Existem diversos outros "beats" que cobrem boa parte das necessidades de coleta de dados e métricas. Vale a pena conferir os outros agentes nesse <a href="https://www.elastic.co/pt/products/beats">link</a>.
 
 <a name="Objectives"></a>
 
