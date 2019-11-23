@@ -59,7 +59,7 @@ Download e instalação do Virtualbox:
 Download e instalação do Vagrant
 - Na console do PowerShell, digite o comando: `choco install vagrant`
 - Crie o arquivo de inicialização do vagrant digitando o comando: `vagrant init centos/7`
-- Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up centos\7`
+- Crie a máquina virtual conforme o arquivo vagrantfile que foi criado na etapa anterior, digite o comando: `vagrant up`
 - Acesse a máquina virtual via SSH digitando o comando: `vagrant ssh`
 
 ## Configuração do CentOS ##
