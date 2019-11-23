@@ -68,6 +68,8 @@ Download e instalação do Vagrant
 - Digite o comando para instalar o vim: `yum install vim`
 - Digite o comando para desabilitar o firewall `systemctl disable firewalld`
 - Instalando o Ifconfig: `yum provides ifconfig`
+- Fazer logout da máquina virtual: `exit`
+- Pegar o nome da VM do box da Vagrant: `vboxmanage list vms`
 - Adicionando o NAT para o Elasticsearch: `vBoxManage modifyvm "NOME_DA_VM" --natpf1 "SSH,tcp,127.0.0.1,9200,10.0.2.15,9200"`
 - Adicionando o NAT para o Kibana: `vBoxManage modifyvm "NOME_DA_VM" --natpf1 "SSH,tcp,127.0.0.1,5601,10.0.2.15,5601"`
 
