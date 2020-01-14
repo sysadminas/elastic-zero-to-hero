@@ -91,3 +91,15 @@ Inicie o serviço do APM:
 cd /usr/local/etc/apm-server
 ./apm-server -e
 ```
+
+Para verificar se o elasticsearch está funcionando, acesso pelo navegador `http://localhost:8200`, deve surgir a seguinte resposta:
+```
+// 20200114135710
+// http://localhost:8200/
+
+{
+  "build_date": "2019-12-16T20:57:12Z",
+  "build_sha": "348d8d83c3c823b64fc0692be607b1a5a8fac775",
+  "version": "7.5.1"
+}
+```
