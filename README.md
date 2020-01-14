@@ -42,4 +42,4 @@ O seguinte é necessário para completar este laboratório prático
 5. [Instalar e configurar o Filebeat](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/filebeat.md)
 6. [Instalar e configurar o APM](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/apm.md)
 
-Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira) e [@valescaf](https://github.com/valescaf)
+Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira), [@valescaf](https://github.com/valescaf) e [@marylly](https://github.com/marylly)
