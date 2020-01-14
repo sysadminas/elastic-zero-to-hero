@@ -119,16 +119,16 @@ Depois desempacote o arquivo baixado:
 ```
 tar -zxvf elasticsearch-7.5.1-darwin-x86_64.tar.gz
 ```
-Mova a pasta exttraída para uma pasta de aplicações do sistema operacional, deve ser feita como administrador de máquina, então utilizaremos `sudo`:
+Mova a pasta extraída para uma pasta de aplicações do sistema operacional:
 ```
-sudo mv elasticsearch-7.5.1 /usr/local/etc/elasticsearch
+mv elasticsearch-7.5.1 /usr/local/etc/elasticsearch
 ```
 
 ### Configuração
 
-Acesse o arquivo de configuração do Elasticsearch, deve ser feito como administrador de máquina, então utilizaremos `sudo`: 
+Acesse o arquivo de configuração do Elasticsearch: 
 ```
-sudo vi /usr/local/etc/elasticsearch/config/elasticsearch.yml
+vim /usr/local/etc/elasticsearch/config/elasticsearch.yml
 ```
 Insira as informações abaixo no arquivo *elasticsearch.yml*:
 

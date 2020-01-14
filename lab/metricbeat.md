@@ -54,9 +54,11 @@ Dentre todos esses módulos, nós utilizaremos apenas o módulo *system*, para c
 
 Vamos instalar o Metricbeat no seu host Windows e em seguida, vamos enviar as métricas direto para o elasticsearch que está rodando na sua VM.  
 
+## Instalação Windows
+
 ### Download
 
-Faça o download do [Metricbeat](https://www.elastic.co/pt/downloads/past-releases/metricbeat-7-1-0)
+Faça o download do [Metricbeat](https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.5.1-windows-x86_64.zip)
 
 ### Configuração
 
@@ -106,4 +108,50 @@ Carregue os dashboards:
 Inicie o Metricbeat: 
 ```
 Start-Service metricbeat
+```
+
+## Instalação MacOS
+
+### Download
+Faça o download do MetricBeat:
+```
+wget https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.5.1-darwin-x86_64.tar.gz
+```
+
+### Instalação
+Depois desempacote o arquivo baixado:
+```
+tar -zxvf metricbeat-7.5.1-darwin-x86_64.tar.gz
+```
+Mova a pasta extraída para uma pasta de aplicações do sistema operacional:
+```
+mv metricbeat-7.5.1-darwin-x86_64 /usr/local/etc/metricbeat
+```
+
+### Configuração
+
+Habilite o módulo `system` do MetricBeat:
+```
+cd /usr/local/etc/metricbeat
+./metricbeat modules enable system
+```
+Surgirá a seguinte mensagem:
+```
+Module system is already enabled
+```
+Execute a configuração dos Dashboards do Kibana para o MetricBeat:
+```
+cd /usr/local/etc/metricbeat
+./metricbeat setup
+```
+Surgirá a seguinte mensagem:
+```
+Index setup finished.
+Loading dashboards (Kibana must be running and reachable)
+Loaded dashboards
+````
+Inicie o serviço do MetricBeat:
+```
+cd /usr/local/etc/metricbeat
+./metricbeat -e
 ```
