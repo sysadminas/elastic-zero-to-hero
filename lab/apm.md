@@ -1,8 +1,8 @@
 # APM Server
 
-O Filebeat é uma ferramenta open source, funcionando como um agente numa máquina para coletar arquivos e logs em tempo real, e enviar para o cluster do ElasticSearch e visualizar os dados no Kibana.
+O APM Server tem como principal característica receber dados do APM agent e envia esses dados para serem armazenados no Elasticsearch.
 
-Agora, vamos iniciar a instalação e configuração do FileBeat para enviar arquivos de syslog:
+Agora, vamos iniciar a instalação e configuração do APM Server.
 
 ## Instalação no MacOS
 
