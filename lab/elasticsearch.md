@@ -31,14 +31,14 @@ vim /etc/elasticsearch/elasticsearch.yml
 ```
 Insira as informações abaixo no arquivo *elasticsearch.yml*:
 
-***Cluster***
+**Cluster**
 
 Insira o nome do seu cluster: 
 ```
 cluster.name: cluster-01
 ```
 
-***Node***
+**Node**
 
 Insira o nome do seu node: 
 ```
@@ -131,14 +131,15 @@ Acesse o arquivo de configuração do Elasticsearch, deve ser feito como adminis
 sudo vi /usr/local/etc/elasticsearch/config/elasticsearch.yml
 ```
 Insira as informações abaixo no arquivo *elasticsearch.yml*:
-***Cluster***
+
+**Cluster**
 
 Insira o nome do seu cluster: 
 ```
 cluster.name: cluster-01
 ```
 
-***Node***
+**Node**
 
 Insira o nome do seu node: 
 ```
